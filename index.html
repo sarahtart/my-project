@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple Library</title>
+  </head>
+
+  <body style="font-family: Arial; margin: 20px">
+    <!-- Header -->
+    <header
+      style="text-align: center; background-color: lightblue; padding: 15px"
+    >
+      <h1 style="color: blue">Simple Library</h1>
+    </header>
+
+    <!-- Navigation -->
+    <nav style="background-color: lightgray; padding: 10px">
+      <ul style="list-style: none; display: flex; gap: 20px">
+        <li><a href="#books">Books</a></li>
+        <li><a href="#authors">Authors</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Books Section -->
+    <section id="books">
+      <h2 style="color: green">Books</h2>
+
+      <h3>The Way I Used to Be</h3>
+      <img src="images/book1.jpg" width="150" style="border-radius: 10px" />
+      <p>A powerful story about healing, identity, and finding your voice.</p>
+      <p>Author: <a href="#authors">Amber Smith</a></p>
+
+      <h3>The Way I Am Now</h3>
+      <img src="images/book2.jpg" width="150" style="border-radius: 10px" />
+      <p>A sequel exploring growth, relationships, and moving forward.</p>
+      <p>Author: <a href="#authors">Amber Smith</a></p>
+
+      <h3>Things We Never Got Over</h3>
+      <img src="images/book3.jpg" width="150" style="border-radius: 10px" />
+      <p>A romance story about love, family, and second chances.</p>
+      <p>Author: <a href="#authors">Lucy Score</a></p>
+    </section>
+
+    <!-- Authors Section -->
+    <section id="authors">
+      <h2 style="color: purple">Authors</h2>
+
+      <h3>Amber Smith</h3>
+      <img src="images/author1.jpg" width="150" style="border-radius: 50%" />
+      <p>Amber Smith writes emotional and impactful young adult novels.</p>
+
+      <h3>Lucy Score</h3>
+      <img src="images/author2.jpg" width="150" style="border-radius: 50%" />
+      <p>
+        Lucy Score is known for her bestselling contemporary romance novels.
+      </p>
+    </section>
+
+    <!-- Table -->
+    <h2 style="color: red">Book Details</h2>
+    <table border="1" style="width: 100%; text-align: center">
+      <tr style="background-color: lightgray">
+        <th>Title</th>
+        <th>Author</th>
+        <th>Year</th>
+        <th>Genre</th>
+        <th>Available</th>
+      </tr>
+
+      <tr>
+        <td>The Way I Used to Be</td>
+        <td>Amber Smith</td>
+        <td>2016</td>
+        <td>Fiction</td>
+        <td>Yes</td>
+      </tr>
+
+      <tr>
+        <td>The Way I Am Now</td>
+        <td>Amber Smith</td>
+        <td>2023</td>
+        <td>Fiction</td>
+        <td>No</td>
+      </tr>
+
+      <tr>
+        <td>Things We Never Got Over</td>
+        <td>Lucy Score</td>
+        <td>2022</td>
+        <td>Romance</td>
+        <td>Yes</td>
+      </tr>
+    </table>
+
+    <!-- Form -->
+    <section id="contact">
+      <h2 style="color: orange">Request a Book</h2>
+
+      <form>
+        <input type="text" placeholder="First Name" style="margin: 5px" /><br />
+        <input type="text" placeholder="Last Name" style="margin: 5px" /><br />
+        <input type="email" placeholder="Email" style="margin: 5px" /><br />
+        <textarea placeholder="Book Request" style="margin: 5px"></textarea
+        ><br />
+
+        <button
+          type="submit"
+          style="
+            background-color: blue;
+            color: white;
+            padding: 5px 15px;
+            border: none;
+          "
+        >
+          Submit
+        </button>
+      </form>
+    </section>
+
+    <!-- Footer -->
+    <footer
+      style="
+        text-align: center;
+        margin-top: 20px;
+        background-color: lightgray;
+        padding: 10px;
+      "
+    >
+      <p>&copy; 2026 Simple Library | Contact: info@library.com</p>
+    </footer>
+  </body>
+</html>
